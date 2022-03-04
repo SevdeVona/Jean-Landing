@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* Navbar Section */
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    letter-spacing: 0.75rem;
+}
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 1.5rem;
+}
+#navbar ul li a:hover {
+    background-color: #0c4472;
+    border-radius: 2px;
+}
+
+/* Home Section */
+
+#home {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+#home .name h2{
+    margin-bottom: 00.75rem;
+}
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+#home a {
+    font-size: 1rem;
+}
+
+/* Discover */
+
+#discover {
+    color: #fff;
+    padding: 1rem;
+}
+#discover .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+#discover .items .item  {
+    font-size: 0.8rem;
+    width: 33%;
+    text-align: center;
+    padding: 1rem;
+}
+#discover .items .item:hover {
+    color: rgb(225, 225, 236);
+    opacity: 0.7;
+}
+#discover .items .item p {
+    letter-spacing: 0.8px;
+}
+#discover .items .item h3 {
+    letter-spacing: 1.3px;
+}
+/* Parts */
+
+#Parts {
+    color: #333;
+    padding: 1rem;
+}
+.Parts {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.Parts .discover {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.discover .Couple {
+    margin-left: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.Parts .discover .discover-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+
+.Parts .discover .discover-image img {
+    border-radius: 10px;
+}
+
+.Parts .discover .Couple .title {
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.Parts .discover .Couple .description {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.80;
+}
+
+.Parts .discover .Couple .instruction {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.7;
+}
+.Parts .discover .Couple .buying {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 2;
+}
+
+/* Contact */
+
+#contact {
+    color: #fff;
+    padding: 0.7rem;
+}
+#contact .contact-form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+#contact .contact-form ul li a:hover {
+    opacity: 0.8;
+}
